@@ -1,7 +1,9 @@
 <div class="grid-x grid-padding-x">
   <div class="large-9 medium-9 cell">
     <div class="callout">
-      <h5>Bemutatkozás </h5>
+      <h5 class="text-center">Bemutatkozás </h5>
+      <hr style="margin: 0 0 0.7rem;">
+
       <ul>
         <li>Cégünk 1991-ben alakult, azóta kizárólag társasházkezeléssel foglalkozunk. Társasházaink kezelését több mint
           30
@@ -17,45 +19,86 @@
           bármely felmerülő dolog megoldásában.
         </li>
       </ul>
-      <div class="callout primary">
-        <p class="text-center">
-          <strong>Legfontosabb alapelveink:</strong>
-        </p>
+    </div>
+    <div class="callout primary">
+      <p class="text-center">
+        <strong>Legfontosabb alapelveink:</strong>
+      </p>
 
 
-        <div class="grid-x grid-margin-x" data-equalizer data-equalize-on="medium" id="test-eq">
-          <div class="cell medium-3">
-            <div class="callout" data-equalizer-watch>
-              <p class="text-center">Bizalom</p>
-            </div>
-          </div>
-          <div class="cell medium-3">
-            <div class="callout" data-equalizer-watch>
-              <p class="text-center">Átláthatóság</p>
-            </div>
-          </div>
-          <div class="cell medium-3">
-            <div class="callout" data-equalizer-watch>
-              <p class="text-center">Hosszútávú együttműködés</p>
-            </div>
-          </div>
-          <div class="cell medium-3">
-            <div class="callout" data-equalizer-watch>
-              <p class="text-center">Hosszútávú együttműködés</p>
-            </div>
+      <div class="grid-x grid-padding-x" data-equalizer data-equalize-on="medium" id="test-eq">
+        <div class="cell large-3">
+          <div class="callout" data-equalizer-watch>
+
+            <p class="text-center"><i class="fa fa-handshake" style="color: orange; font-size: 1.5rem;"></i><br>Bizalom
+            </p>
           </div>
         </div>
-
-
-
-
+        <div class="cell large-3">
+          <div class="callout" data-equalizer-watch>
+            <p class="text-center"><i class="fa fa-eye" style="color: orange; font-size: 1.5rem;"></i><br>Átláthatóság
+            </p>
+          </div>
+        </div>
+        <div class="cell large-3">
+          <div class="callout" data-equalizer-watch>
+            <p class="text-center"><i class="fa fa-badge-check"
+                style="color: orange; font-size: 1.5rem;"></i><br>Felelősségteljes munkavégzés</p>
+          </div>
+        </div>
+        <div class="cell large-3">
+          <div class="callout" data-equalizer-watch>
+            <p class="text-center"><i class="fa fa-infinity"
+                style="color: orange; font-size: 1.5rem;"></i><br>Hosszútávú együttműködés</p>
+          </div>
+        </div>
       </div>
-      <p>
-      </p>
-      <p>
 
-      </p>
-      <p>
-      </p>
+
     </div>
+    <div class="grid-x grid-margin-x">
+      {{#each bemutatkozas}}
+
+      <div class="cell large-4">
+        <div class="card">
+
+          <div class="card-divider">
+            <h6 class="text-center">{{this.title}}
+            </h6>
+
+          </div>
+          <img src="{{this.src}}">
+
+          <div class="card-section">
+            <p>
+              {{#if this.text1}}
+              {{this.text1}}
+              {{/if}}
+            </p>
+            <p>
+              {{#if this.text2}}
+              {{this.text2}}
+              {{/if}}
+            </p>
+            <p>
+              {{#if this.text3}}
+              {{this.text3}}
+              {{/if}}
+            </p>
+            <p>
+              {{#if this.text4}}
+              {{this.text4}}
+              {{/if}}
+            </p>
+
+          </div>
+        </div>
+      </div>
+      {{/each}}
+
+
+    </div>
+
+
+
   </div>
