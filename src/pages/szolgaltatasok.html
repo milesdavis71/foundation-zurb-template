@@ -2,12 +2,118 @@
   <div class="large-9 medium-9 cell">
     <div class="callout">
       <h5>Szolgáltatások </h5>
-      <ul>
-        <li>Első</li>
-        <li>Második</li>
-        <li>Harmadik</li>
-        <li>Negyedik</li>
-        <li>Ötödik</li>
-      </ul>
+
+      <div class="cell">
+
+        <div class="card">
+
+          <div class="card-divider">
+
+            <h6 class="text-center">Általános ügyintézés:
+            </h6>
+
+
+          </div>
+
+          <div class="card-section">
+            <div class="grid-x grid-padding-x">
+              <div class="cell large-8">
+                <ul>
+                  {{#each ugyintaltalanos}}
+                  <li>
+                    {{this}}
+                  </li>
+                  {{/each}}
+                </ul>
+              </div>
+              <div class="cell large-4"> <img class="thumbnail" src="{{root}}assets/img/ugyintezes-portr.jpg">
+              </div>
+            </div>
+
+
+          </div>
+        </div>
+        <div class="card">
+
+          <div class="card-divider">
+
+            <h6 class="text-center">Könyvelési ügyintézés:
+            </h6>
+
+
+          </div>
+
+          <div class="card-section">
+            <div class="grid-x grid-padding-x">
+              <div class="cell large-4"> <img class="thumbnail" src="{{root}}assets/img/konyvel-portr.jpg">
+              </div>
+
+              <div class="cell large-8">
+                <ul>
+                  {{#each ugyintkonyvelesi}}
+                  <li>
+                    {{this}}
+                  </li>
+                  {{/each}}
+                </ul>
+              </div>
+
+            </div>
+          </div>
+        </div>
+        <div class="card">
+
+          <div class="card-divider">
+
+            <h6 class="text-center">Műszaki ügyintézés:
+            </h6>
+
+
+          </div>
+
+          <div class="card-section">
+            <div class="grid-x grid-padding-x">
+              <div class="cell large-4"><img class="thumbnail" src="{{root}}assets/img/szerelo-portr.jpg">
+              </div>
+
+              <div class="cell large-8">
+                <ul>
+                  {{#each ugyintmuszaki}}
+                  <li>
+                    {{this}}
+                  </li>
+                  {{/each}}
+                </ul>
+              </div>
+
+            </div>
+
+
+          </div>
+        </div>
+        <div class="card">
+
+          <div class="card-divider">
+
+            <h6 class="text-center">Jogi ügyintézés:
+            </h6>
+
+
+          </div>
+          <img class="thumbnail" src="{{root}}assets/img/jog.png">
+
+          <div class="card-section">
+            <ul>
+              {{#each ugyintjogi}}
+              <li>
+                {{this}}
+              </li>
+              {{/each}}
+            </ul>
+
+          </div>
+        </div>
+
+      </div>
     </div>
   </div>
