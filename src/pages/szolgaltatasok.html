@@ -1,119 +1,110 @@
-<div class="grid-x grid-padding-x">
-  <div class="large-9 medium-9 cell">
-    <div class="callout">
-      <h5>Szolgáltatások </h5>
+<div class="callout">
+  <h5 class="text-center">Szolgáltatások </h5>
 
-      <div class="cell">
+  <div class="cell">
+    <!-- 1 -->
+    {{#each global.szolgaltatasok}}
 
-        <div class="card">
-
-          <div class="card-divider">
-
-            <h6 class="text-center">Általános ügyintézés:
-            </h6>
-
-
-          </div>
-
-          <div class="card-section">
-            <div class="grid-x grid-padding-x">
-              <div class="cell large-8">
-                <ul>
-                  {{#each ugyintaltalanos}}
-                  <li>
-                    {{this}}
-                  </li>
-                  {{/each}}
-                </ul>
-              </div>
-              <div class="cell large-4"> <img class="thumbnail" src="{{root}}assets/img/ugyintezes-portr.jpg">
-              </div>
-            </div>
-
-
-          </div>
+    <div class="card">
+      <div class="card-divider">
+        <div class="cell" style="margin: -0.5rem 0 -1rem ;">
+          <h6 class="text-center">
+            {{title}}
+          </h6>
         </div>
-        <div class="card">
-
-          <div class="card-divider">
-
-            <h6 class="text-center">Könyvelési ügyintézés:
-            </h6>
-
-
-          </div>
-
-          <div class="card-section">
-            <div class="grid-x grid-padding-x">
-              <div class="cell large-4"> <img class="thumbnail" src="{{root}}assets/img/konyvel-portr.jpg">
-              </div>
-
-              <div class="cell large-8">
-                <ul>
-                  {{#each ugyintkonyvelesi}}
-                  <li>
-                    {{this}}
-                  </li>
-                  {{/each}}
-                </ul>
-              </div>
-
-            </div>
-          </div>
-        </div>
-        <div class="card">
-
-          <div class="card-divider">
-
-            <h6 class="text-center">Műszaki ügyintézés:
-            </h6>
-
-
-          </div>
-
-          <div class="card-section">
-            <div class="grid-x grid-padding-x">
-              <div class="cell large-4"><img class="thumbnail" src="{{root}}assets/img/szerelo-portr.jpg">
-              </div>
-
-              <div class="cell large-8">
-                <ul>
-                  {{#each ugyintmuszaki}}
-                  <li>
-                    {{this}}
-                  </li>
-                  {{/each}}
-                </ul>
-              </div>
-
-            </div>
-
-
-          </div>
-        </div>
-        <div class="card">
-
-          <div class="card-divider">
-
-            <h6 class="text-center">Jogi ügyintézés:
-            </h6>
-
-
-          </div>
-          <img class="thumbnail" src="{{root}}assets/img/jog.png">
-
-          <div class="card-section">
-            <ul>
-              {{#each ugyintjogi}}
+      </div>
+      <div class="card-section">
+        <div class="grid-x grid-padding-x">
+          <div class="cell large-8">
+            <ul class="no-bullet" id="list">
+              {{#if list01}}
               <li>
-                {{this}}
+                {{list01}}
               </li>
-              {{/each}}
+              {{/if}}
+              {{#if list02}}
+              <li>
+                {{list02}}
+              </li>
+              {{/if}}
+              {{#if list03}}
+              <li>
+                {{list03}}
+              </li>
+              {{/if}}
+              {{#if list04}}
+              <li>
+                {{list04}}
+              </li>
+              {{/if}}
+              {{#if list05}}
+              <li>
+                {{list05}}
+              </li>
+              {{/if}}
+              {{#if list06}}
+              <li>
+                {{list06}}
+              </li>
+              {{/if}}
+              {{#if list07}}
+              <li>
+                {{list07}}
+              </li>
+              {{/if}}
+              {{#if list08}}
+              <li>
+                {{list08}}
+              </li>
+              {{/if}}
+              {{#if list09}}
+              <li>
+                {{list09}}
+              </li>
+              {{/if}}
+              {{#if list10}}
+              <li>
+                {{list10}}
+              </li>
+              {{/if}}
+              {{#if list11}}
+              <li>
+                {{list11}}
+              </li>
+              {{/if}}
+              {{#if list12}}
+              <li>
+                {{list12}}
+              </li>
+              {{/if}}
+              {{#if list13}}
+              <li>
+                {{list13}}
+              </li>
+              {{/if}}
+              {{#if list14}}
+              <li>
+                {{list14}}
+              </li>
+              {{/if}}
+              {{#if list15}}
+              <li>
+                {{list15}}
+              </li>
+              {{/if}}
+              {{#if list16}}
+              <li>
+                {{list16}}
+              </li>
+              {{/if}}
             </ul>
-
+          </div>
+          <div class="cell large-4">
+            {{>interchange1}}{{imgsmall}}{{>interchange2}}{{imgmedium}}{{>interchange3}}{{imgsmall}}{{>interchange4}}
           </div>
         </div>
-
       </div>
     </div>
+    {{/each}}
   </div>
+</div>

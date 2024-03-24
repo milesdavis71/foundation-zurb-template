@@ -1,0 +1,78 @@
+szolgaltatasok:
+  - title: Általános ügyintézés
+    list01: Általában az épület üzemeltetése.
+    list02: Adminisztrációs feladatok elvégzése (levelezés, határozatok, csekkek, közgyűlési meghívók, jegyzőkönyvek megküldése a tulajdonosoknak).
+    list03: Közös költség beszedéséről való gondoskodás, a nem fizető tulajdonostársaktól a behajtás szorgalmazása, intézkedések tartozások peres úton történő behajtására, visszamenőlegesen is.
+    list04: A befizetett közös költségről a tárgyévet követő év május 31. napjáig elszámolás készítése a tényleges bevételek és kiadások alapján.
+    list05: Közgyűlések, rendkívüli közgyűlések összehívása, megtartása.
+    list06: Tulajdonostársi és egyéb bejelentések meghallgatása, kivizsgálása, megválaszolása.
+    list07: Az épület közös tulajdonában levő helyiségek lehetőségek szerinti hasznosítása, szükséges közgyűlési határozat megszerzése.
+    list08: Számvizsgáló Bizottság részére az iratbetekintés, ellenőrzési célra biztosítása, a naplófőkönyvi kivonatok a Számvizsgáló Bizottsági tagok, részére rendelkezésre bocsátása.
+    list09: Épületbiztosítással kapcsolatos teendők ügyintézése, ellátása.
+    list10: A közösség éves tervében, ill. terven felüli építő- felújító beruházásaival kapcsolatos versenytárgyalások, pályázatok lebonyolítása, árajánlatok döntési javaslattal történő ellátása és továbbítása az Számvizsgáló bizottság felé véleményezésre. Karbantartási munkák megrendelése, a rendeltetésszerű használatot gátló hibák kijavíttatása, ellenőrzése, munkák átvétele.
+    list11: Szükség esetén gondnoki, takarítói és felvonó felügyeleti feltételek személyi biztosítása, ellenőrzése.
+    imgsmall: "ugyintezes-small.jpg"
+    imgmedium: "ugyintezes-small.jpg"
+    imglarge: "ugyintezes-large.jpg"
+  - title: Könyvelési ügyintézés
+    list01: Bevételek, kiadások könyvelése, naplófőkönyv vezetése, bizonylatok megőrzése, közös ügyekkel járó nyilvántartások vezetése.
+    list02: Az épületek közüzemi számláinak kiegyenlítése, ellenőrzése.
+    list03: Költségvetés szerinti kifizetések teljesítése.
+    list04: Közös költség, felújítási alap nyilvántartása lakásonként és az egész épületre.
+    list05: Felújítási alap elkülönítése és felhasználásának vezetése.
+    list06: Bérbeadásból származó bevételek nyilvántartása.
+    list07: Adó- és TB bevallások készítése, benyújtása, kötelezettségek teljesítése.
+    list08: Éves elszámolás, illetve a tulajdonostársak egyéni elszámolásának elkészítése.
+    list09: Éves elszámolás, következő évi költségterv előkészítése a közgyűlést megelőzően (Számvizsgáló Bizottsággal egyeztetve, a társasházi törvényeknek megfelelően).
+    list10: Tárgyévi költségvetés elkészítése.
+    list11: Előző évi gazdálkodás eredményéről beszámoló készítése.
+    list12: Közös tulajdon adózás esetében a bevallás és az adóigazgatási jogszabályban előírt nyilvántartások határidőben történő elkészítése, vezetése.
+    list13: Bankszámla nyitása.
+    list14: Teljes körű banki ügyintézések számlavezető banknál.
+    list15: Igény esetén szabad pénzeszközök lekötése.
+    imgsmall: "konyvel-small.jpg"
+    imgmedium: "konyvel-small.jpg"
+    imglarge: "konyvel-large.jpg"
+  - title: Műszaki ügyintézés
+    list01: Az épületek folyamatos üzemeltetésének biztosítása.
+    list02: Épületek műszaki felmérése alapján javaslatok az elvégzendő munkák körére, karbantartási ütemterv készítése.
+    list03: Árajánlatok beszerzése.
+    list04: Felújítások, javítások megszervezése ajánlatkéréstől a közgyűlési döntésig.
+    list05: Felújítások nyomon követése, szervezése, bonyolítása.
+    list06: Hibaelhárítási munkák megszervezése.
+    list07: Kötelező karbantartási tevékenység biztosítása.
+    list08: Közös helyiségek hasznosítása, karbantartása.
+    list09: Az épületek műszaki felügyelete.
+    list10: Műszaki tanácsadás.
+    list11: Kivitelezések ellenőrzése.
+    list12: Önkormányzati és fővárosi pályázatokon való részvétel (nem sikerdíjas).
+    imgsmall: "muszaki-small.jpg"
+    imgmedium: "muszaki-small.jpg"
+    imglarge: "muszaki-large.jpg"
+  - title: Jogi ügyintézés
+    list01: Az épületek közös képviseletéből adódó jogi képviselet és jogvédelem biztosítása.
+    list02: Közös költség és egyéb hátralékok behajtása.
+    list03: Szervezeti működési szabályzat készítése, módosítása (külön díjazás).
+    list04: Társasház képviselete a közösségi és peres ügyekben.
+    list05: Jogi tanácsadás.
+    imgsmall: "jog-small.jpg"
+    imgmedium: "jog-small.jpg"
+    imglarge: "jog-large.jpg"
+
+gallery:
+  - imgsmall: "https://placehold.co/900x600?text=társasház1 small"
+    imglarge: "https://placehold.co/1920x1280?text=társasház1 large"
+  - imgsmall: "https://placehold.co/900x600?text=társasház2 small"
+    imglarge: "https://placehold.co/1920x1280?text=társasház2 large"
+  - imgsmall: "https://placehold.co/900x600?text=társasház3 small"
+    imglarge: "https://placehold.co/1920x1280?text=társasház3 large"
+  - imgsmall: "https://placehold.co/900x600?text=társasház4 small"
+    imglarge: "https://placehold.co/1920x1280?text=társasház4 large"
+  - imgsmall: "https://placehold.co/900x600?text=társasház5 small"
+    imglarge: "https://placehold.co/1920x1280?text=társasház5 large"
+  - imgsmall: "https://placehold.co/900x600?text=társasház6 small"
+    imglarge: "https://placehold.co/1920x1280?text=társasház6 large"
+  - imgsmall: "https://placehold.co/900x600?text=társasház7 small"
+    imglarge: "https://placehold.co/1920x1280?text=társasház7 large"
+  - imgsmall: "https://placehold.co/900x600?text=társasház8 small"
+    imglarge: "https://placehold.co/1920x1280?text=társasház8 large"

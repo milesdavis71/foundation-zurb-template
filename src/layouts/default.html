@@ -12,16 +12,47 @@
 
   <link rel="stylesheet" href="{{root}}assets/css/app.css">
   <link rel="stylesheet" href="{{root}}assets/fontawesome/css/all.min.css">
-
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.8.0/dist/leaflet.css"
+    integrity="sha512-hoalWLoI8r4UszCkZ5kL8vayOGVae1oxXe/2A4AO6J9+580uKHDO3JdHb7NzwwzK5xr/Fs0W40kiNHxM9vyTtQ=="
+    crossorigin="" />
+  <!-- Make sure you put this AFTER Leaflet's CSS -->
+  <script src="https://unpkg.com/leaflet@1.8.0/dist/leaflet.js"
+    integrity="sha512-BB3hKbKWOc9Ez/TAwyWxNXeoV9c1v6FIeYiBieIWkpLjauysF18NzgR1MBNBXf8/KABdlkX68nAhlwcDFLGPCQ=="
+    crossorigin="">
+    </script>
 </head>
 
 <body>
+  <style>
+    #list li::marker {
+      content: '• ';
+      font-size: 1.1em;
+      color: orangered;
+    }
 
+    #list li {
+      margin-left: 15px;
+    }
+
+    #list2 li::marker {
+      content: '• ';
+      font-size: 1.1em;
+      color: orangered;
+    }
+  </style>
   {{!-- Pages you create in the src/pages/ folder are inserted here when the flattened page is created. --}}
   {{> header}}
-  {{>hero}}
-  {{> body}}
-  {{> right-column}}
+  <div class="grid-x grid-padding-x">
+    {{>hero}}
+  </div>
+  <div class="grid-x grid-padding-x">
+    <div class="cell medium-8 large-9">
+      {{> body}}
+    </div>
+    <div class="cell medium-4 large-3">
+      {{> right-column}}
+    </div>
+  </div>
 
 
   <script src="{{root}}assets/js/app.js"></script>
