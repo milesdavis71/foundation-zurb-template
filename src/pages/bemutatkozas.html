@@ -1,7 +1,10 @@
-<div class="callout">
-  <h5 class="text-center">Bemutatkozás </h5>
-  <hr style="margin: 0 0 0.7rem;">
+---
+title: Bemutatkozás
+---
 
+<div class="callout">
+  <h5 class="text-center">{{title}}</h5>
+  <hr style="margin: 0 0 0.7rem;">
   <ul id="list2">
     <li>Cégünk 1991-ben alakult, azóta kizárólag társasházkezeléssel foglalkozunk. Társasházaink kezelését több mint
       30
@@ -17,6 +20,7 @@
       bármely felmerülő dolog megoldásában.
     </li>
   </ul>
+
 </div>
 <div class="callout primary">
   <p class="text-center">
@@ -55,7 +59,7 @@
 
 </div>
 <div class="grid-x grid-margin-x">
-  {{#each bemutatkozas}}
+  {{#each global.bemutatkozas}}
 
   <div class="cell large-6">
     <div class="card">
