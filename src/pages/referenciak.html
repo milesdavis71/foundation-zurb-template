@@ -1,22 +1,80 @@
 <div class="callout">
-  <h5>Referenciák </h5>
+    <h5 class="text-center">Referenciák </h5>
+    <div class="grid-x grid-padding-x">
+        <style>
+        swiper-slide {
+            text-align: center;
+            font-size: 18px;
+            background: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
 
-  <div class="grid-x grid-padding-x small-up-1 medium-up-3">
-    {{#each global.gallery}}
-    <div class="cell">
-      <div class="card">
-        <a data-open="pop01">
-          {{>image1}}{{imgsmall}}{{>image2}}
-        </a>
-      </div>
-      <div class="large reveal" id="pop01" data-reveal>
-        {{>image1}}{{imglarge}}{{>image2}}
-        <button class="close-button" data-close aria-label="Close reveal" type="button">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
+        swiper-slide img {
+            display: block;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+
+
+        swiper-container {
+            width: 100%;
+            height: 300px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        swiper-slide {
+            background-size: cover;
+            background-position: center;
+            position: relative;
+        }
+
+        .mySwiper {
+            height: 80%;
+            width: 100%;
+        }
+
+        .mySwiper2 {
+            height: 20%;
+            box-sizing: border-box;
+            padding: 10px 0;
+        }
+
+        .mySwiper2 swiper-slide {
+            width: 25%;
+            height: 100%;
+            opacity: 0.4;
+        }
+
+        .mySwiper2 .swiper-slide-thumb-active {
+            opacity: 1;
+        }
+
+        .slide-title {
+            position: absolute;
+            bottom: calc(0.7rem + 1vw);
+            font-size: calc(0.7rem + 1vw);
+            color: white;
+        </style>
+        <swiper-container style="--swiper-navigation-color: #fff; --swiper-pagination-color: #fff" class="mySwiper" thumbs-swiper=".mySwiper2" space-between="10" navigation="true">
+            {{#each global.gallery}}
+            <swiper-slide>
+                <div class="slide-title">{{imgtitle}}</div>
+                <img src="{{imglarge}}" />
+            </swiper-slide>
+            {{/each}}
+        </swiper-container>
+        <swiper-container class="mySwiper2" space-between="10" slides-per-view="8" free-mode="true" watch-slides-progress="true">
+            {{#each global.gallery}}
+            <swiper-slide>
+                <img src="{{imgsmall}}" />
+            </swiper-slide>
+            {{/each}}
+        </swiper-container>
+        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
     </div>
-    {{/each}}
-
-  </div>
 </div>
