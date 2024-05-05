@@ -1,80 +1,26 @@
 <div class="callout">
     <h5 class="text-center">Referenciák </h5>
-    <div class="grid-x grid-padding-x">
-        <style>
-        swiper-slide {
-            text-align: center;
-            font-size: 18px;
-            background: #fff;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-
-        swiper-slide img {
-            display: block;
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-        }
-
-
-
-        swiper-container {
-            width: 100%;
-            height: 300px;
-            margin-left: auto;
-            margin-right: auto;
-        }
-
-        swiper-slide {
-            background-size: cover;
-            background-position: center;
-            position: relative;
-        }
-
-        .mySwiper {
-            height: 80%;
-            width: 100%;
-        }
-
-        .mySwiper2 {
-            height: 20%;
-            box-sizing: border-box;
-            padding: 10px 0;
-        }
-
-        .mySwiper2 swiper-slide {
-            width: 25%;
-            height: 100%;
-            opacity: 0.4;
-        }
-
-        .mySwiper2 .swiper-slide-thumb-active {
-            opacity: 1;
-        }
-
-        .slide-title {
-            position: absolute;
-            bottom: calc(0.7rem + 1vw);
-            font-size: calc(0.7rem + 1vw);
-            color: white;
-        </style>
-        <swiper-container style="--swiper-navigation-color: #fff; --swiper-pagination-color: #fff" class="mySwiper" thumbs-swiper=".mySwiper2" space-between="10" navigation="true">
-            {{#each global.gallery}}
-            <swiper-slide>
-                <div class="slide-title">{{imgtitle}}</div>
-                <img src="{{imglarge}}" />
-            </swiper-slide>
-            {{/each}}
-        </swiper-container>
-        <swiper-container class="mySwiper2" space-between="10" slides-per-view="8" free-mode="true" watch-slides-progress="true">
-            {{#each global.gallery}}
-            <swiper-slide>
-                <img src="{{imgsmall}}" />
-            </swiper-slide>
-            {{/each}}
-        </swiper-container>
-        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
+    <!-- cells -->
+    <div class="grid-x grid-padding-x small-up-1 medium-up-3">
+        {{#each global.gallery.first}}
+        <div class="cell">
+            <div class="card">
+                <a href="{{root}}lapozo.html#{{slidenum}}">
+                    <img class="thumbnail" src="{{root}}assets/img/{{imgsmall}}.jpg" alt="{{alt}}">
+                </a>
+                <p class="text-center">{{imgtitle}}</p>
+            </div>
+        </div>
+        {{/each}}
+        {{#each global.gallery.second}}
+        <div class="cell">
+            <div class="card">
+                <a href="{{root}}lapozo.html#{{slidenum}}">
+                    <img class="thumbnail" src="{{root}}assets/img/{{imgsmall}}.jpg" alt="{{alt}}">
+                </a>
+                <p class="text-center">{{imgtitle}}</p>
+            </div>
+        </div>
+        {{/each}}
     </div>
 </div>
