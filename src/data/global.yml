@@ -136,3 +136,16 @@ bemutatkozas:
   - title: Várjuk, hogy Önöknek is segíthessünk
     icon: fas fa-hands
     text1: Amennyiben bemutatkozásunk felkeltette érdeklődésüket és további részletes információra van szükségük, kérem, szíveskedjenek felvenni velünk a kapcsolatot. Készséggel állunk rendelkezésükre további részletes tájékoztatással személyesen is, illetve telefonon is. A közös képviselet gondját levesszük a válláról.
+
+pages:
+    - title: "Főoldal"
+      name: "index"
+    - title: "Bemutatkozás"
+      name: "bemutatkozas"
+    - title: "Szolgáltatások"
+      name: "szolgaltatasok"
+    - title: "Referenciák"
+      name: "referenciak"
+    - title: "Kapcsolatfelvétel"
+      name: "kapcsolatfelvetel"
+      
