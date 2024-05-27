@@ -2,14 +2,14 @@ szolgaltatasok:
   - title: Általános ügyintézés
     list01: Általában az épület üzemeltetése.
     list02: Adminisztrációs feladatok elvégzése (levelezés, határozatok, csekkek, közgyűlési meghívók, jegyzőkönyvek megküldése a tulajdonosoknak).
-    list03: Közös költség beszedéséről való gondoskodás, a nem fizető tulajdonostársaktól a behajtás szorgalmazása, intézkedések tartozások peres úton történő behajtására, visszamenőlegesen is.
+    list03: Közös költség beszedéséről való gondoskodás, a nem fizető tulajdonostársaktól a behajtás szorgalmazása, intézkedések, tartozások peres úton történő behajtására, visszamenőlegesen is.
     list04: A befizetett közös költségről a tárgyévet követő év május 31. napjáig elszámolás készítése a tényleges bevételek és kiadások alapján.
     list05: Közgyűlések, rendkívüli közgyűlések összehívása, megtartása.
     list06: Tulajdonostársi és egyéb bejelentések meghallgatása, kivizsgálása, megválaszolása.
     list07: Az épület közös tulajdonában levő helyiségek lehetőségek szerinti hasznosítása, szükséges közgyűlési határozat megszerzése.
-    list08: Számvizsgáló Bizottság részére az iratbetekintés, ellenőrzési célra biztosítása, a naplófőkönyvi kivonatok a Számvizsgáló Bizottsági tagok, részére rendelkezésre bocsátása.
+    list08: A Számvizsgáló Bizottság részére az ellenőrzési célra történő iratbetekintés biztosítása. A naplófőkönyvi kivonatok rendelkezésre bocsátása a Számvizsgáló Bizottsági tagok részére.
     list09: Épületbiztosítással kapcsolatos teendők ügyintézése, ellátása.
-    list10: A közösség éves tervében, ill. terven felüli építő- felújító beruházásaival kapcsolatos versenytárgyalások, pályázatok lebonyolítása, árajánlatok döntési javaslattal történő ellátása és továbbítása az Számvizsgáló bizottság felé véleményezésre. Karbantartási munkák megrendelése, a rendeltetésszerű használatot gátló hibák kijavíttatása, ellenőrzése, munkák átvétele.
+    list10: A közösség éves tervében, illetve a terven felüli építő, felújító beruházásaival kapcsolatos versenytárgyalások, pályázatok lebonyolítása. Árajánlatok döntési javaslattal történő ellátása és továbbítása az Számvizsgáló bizottság felé véleményezésre. Karbantartási munkák megrendelése, a rendeltetésszerű használatot gátló hibák kijavíttatása, ellenőrzése, munkák átvétele.
     list11: Szükség esetén gondnoki, takarítói és felvonó felügyeleti feltételek személyi biztosítása, ellenőrzése.
     imgsmall: "ugyintezes-small.jpg"
     imgmedium: "ugyintezes-small.jpg"
@@ -99,10 +99,10 @@ gallery:
 bemutatkozas:
   - title: Legfontosabb a bizalom és átláthatóság, hosszútávú együttműködés
     icon: fa fa-handshake
-    text1: Egy jól működő közös képviseleti és társasházi kapcsolat elengedhetetlen része az átláthatóság és a bizalom. Éppen ezért szorosan tartjuk a kapcsolatot a számvizsgáló bizottsággal a mindennapi ügyekben, illetve bármikor betekinthetnek az épület iratanyagaiba, ellenőrizhetik a naprakészen vezetett könyvelésben a bevételeket és kiadásokat annak érdekében, hogy a közös képviselet munkája mindig átlátható legyen, és egy hosszútávú együttműködés alakuljon ki.
-  - title: Lakóközösség érdekeinek szem előtt tartása, proaktív együttműködés
+    text1: Egy jól működő közös képviseleti és társasházi kapcsolat elengedhetetlen része az átláthatóság és a bizalom. Éppen ezért a számvizsgáló bizottsággal  a mindennapi ügyekben szorosan tartjuk a kapcsolatot. A bizottság bármikor betekinthet az épület iratanyagaiba, ellenőrizheti a naprakészen vezetett könyvelésben a bevételeket és kiadásokat annak érdekében, hogy a közös képviselet munkája mindig átlátható legyen, és hosszútávú együttműködés alakuljon ki.
+  - title: A lakóközösség érdekeinek szem előtt tartása, proaktív együttműködés
     icon: fa fa-eye
-    text1: Folyamatosan szem előtt tartjuk a lakóközösség érdekeit, meghallgatjuk a számvizsgáló bizottségi tagok, és tulajdonosok ötleteit, javaslatait és az épület anyagi helyzetétől függően igyekszünk megvalósítani azokat.
+    text1: Folyamatosan szem előtt tartjuk a lakóközösség érdekeit, meghallgatjuk a számvizsgáló bizottsági tagok és tulajdonosok ötleteit, javaslatait és az épület anyagi helyzetétől függően igyekszünk megvalósítani azokat.
     text2: Kiemelt figyelmet fordítunk a felújítási, javítási karbantartási feladatokra ugyanis egy jó állapotú épületben a külön tulajdonú ingatlanok is magasabb értéket képviselnek.
   - title: Felelősségteljes munkavégzés, szakmai felelősségbiztosítás
     icon: fa fa-badge-check
@@ -118,24 +118,24 @@ bemutatkozas:
     text3: Gyakorlatunk az, hogy a három hónapnál nagyobb közös költség hátralékot  - a tulajdonos(ok) felszólítása után - kamataival együtt jogi úton behajtjuk (szükség esetén az önkormányzati, tulajdonra eső hátralékot, is). A behajtási, ügyintézési díjakat a hátralékos tulajdonos terhére érvényesítjük.
   - title: Pályázni, fejleszteni, felújítani
     icon: fa fa-pen-nib
-    text1: Mindenki szeretne egy szép épületben élni, azonban sajnos a kivitelezési költségek az utóbbi években a többszörösére emelkedtek.
-    text2: Kiemelten kezeljük az épületek felújítására irányuló önkormányzati, fővárosi, ill. állami pályázatokon való részvételeket, ugyanis ez egy olyan lehetőség, amit ki kell használni egy társasháznak.
-    text3: A társasháznak szinte az egyetlen bevételi forrása a közös költség befizetésekből származik, amit egy sikeres pályázati támogatással lehet tovább növelni annak érdekében, hogy minél több felújítást tudjon elvégezni, ezzel megakadályozható az, hogy az épület műszaki állaga romoljon, mellyel a külön tulajdonbal lévő ingatlanok is értéktelenednek.
+    text1: Mindenki a lehetőségekhez képest jól karbantartott lakóhelyen szeretne élni, azonban sajnos a kivitelezési költségek az utóbbi években a többszörösére emelkedtek.
+    text2: Kiemelten kezeljük az épületek felújítására irányuló önkormányzati, fővárosi, ill. állami pályázatokon való részvételeket, ugyanis ez egy olyan lehetőség, amit egy társasháznak ki kell használni.
+    text3: A társasház szinte egyetlen bevételi forrása a közös költség befizetésekből származik. Ez a forrás egy sikeres pályázati támogatással tovább növelhető annak érdekében, hogy minél több felújítás elvégzésére legyen lehetőség. A felújítási munkálatokkal megakadályozható az épület műszaki állagának romlása, így a külön tulajdonban lévő ingatlanok értékcsökkenése is megakadályozható. 
     text4: Nálunk a pályázatírás nem sikerdíjas. A pályázatírás költségeit képviseleti díjunk tartalmazza.
   - title: Közös területek bérbeadása
     icon: fas fa-money-bill
-    text1: Nagyon sok társasház rendelkezik olyan közös tulajdonú felülettel, helyiséggel vagy lehetőséggel, mely kihasználatlan. Igyekszünk ezekre megoldást találni, és hasznosítani bérbeadással, mellyel további bevételt lehet szerezni a társasháznak. Legyen szó egy reklámfelületről, vagy egy használaton kívüli közös helyiségről, tárolóról vagy tetőszakaszról, mi igyekszünk ezek hasznosítására javaslatot tenni a tulajdonosoknak.
+    text1: Számos társasház rendelkezik kihasználatlan közös tulajdonú felülettel, helyiséggel vagy lehetőséggel. Ezek hasznosításában bérbeadással tudunk segíteni. Ezáltal további bevételt szerezhet a társasház. Legyen szó egy reklámfelületről, használaton kívüli közös helyiségről, tárolóról vagy tetőszakaszról, mi igyekszünk ezek hasznosítására javaslatot tenni a tulajdonosoknak.
   - title: 0-24 órás műszaki ügyelet
     icon: fa fa-watch
     text1: Lehet akár hétvége, ünnepnap, éjszaka, mi mindig elérhetőek vagyunk. A műszaki ügyeleti telefonszámon a sürgős ügyeket a tulajdonosok be tudják jelenteni (villany, víz, gáz, felvonó), hogy az azonnali beavatkozásokat igénylő hibák elhárításáról haladéktalanul intézkedni tudjunk.
 
   - title: Szervezeti- működési szabályzat
     icon: fa fa-file-alt
-    text1: Egy társasházban az alapító okirat mellett az egyik legfontosabb alapdokumentum a szervezeti-működési szabályzat. E dokumentum, ha nem megfelelően tartalmazza a szabályokat, akkor sokat veszíthet egy társasház akár egy bírósági perben, ezért kiemelten fontos, hogy a társasház mindig egy naprakész, az érvényben lévő törvényeknek megfelelő szervezeti működési szabályzattal rendelkezzen.
-    text2: Külön megbízás alapján szükség szerint vállaljuk a Szervezeti Működési Szabályzat (Sz.M.Sz.) elkészítését, módosítását melyben szintén nagy gyakorlattal rendelkezünk.
+    text1: A társasházakban az alapító okirat mellett az egyik legfontosabb alapdokumentum a szervezeti-működési szabályzat. Ha ez a dokumentum nem megfelelően tartalmazza a szabályokat, akkor veszteség érheti a társasházat (akár egy bírósági perben is). Ezért kiemelten fontos a mindig naprakész, az érvényben lévő törvényeknek megfelelő szervezeti-működési szabályzat megléte.
+    text2: Külön megbízás alapján szükség szerint vállaljuk a Szervezeti Működési Szabályzat (Sz.M.Sz.) szakszerű elkészítését, módosítását melyben szintén nagy gyakorlattal rendelkezünk.
   - title: Várjuk, hogy Önöknek is segíthessünk
     icon: fas fa-hands
-    text1: Amennyiben bemutatkozásunk felkeltette érdeklődésüket és további részletes információra van szükségük, kérem, szíveskedjenek felvenni velünk a kapcsolatot. Készséggel állunk rendelkezésükre további részletes tájékoztatással személyesen is, illetve telefonon is. A közös képviselet gondját levesszük a válláról.
+    text1: Amennyiben bemutatkozásunk felkeltette érdeklődésüket és további részletes információra van szükségük, szíveskedjenek felvenni velünk a kapcsolatot. További részletes tájékoztatással készséggel állunk rendelkezésükre személyesen vagy telefonon.  A közös képviselet gondját levesszük a válláról.
 
 pages:
     - title: "Főoldal"
